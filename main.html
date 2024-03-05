@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGO Review Center Davao</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show selected section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="branding">
+                <img src="img/rgo_logo.png" alt="Logo" class="logo">
+                <h1 class="site-name">RGO Review Center Davao</h1>
+            </div>
+            
+            <!-- Navigation Bar -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="nav-link" onclick="showSection('home')">Home</a></li>
+                    <li><a href="#" class="nav-link" onclick="showSection('testimonials')">Alumni Testimonials</a></li>
+                    <li><a href="#" class="nav-link" onclick="showSection('kits')">Review Materials</a></li>
+                    <li><a href="#" class="nav-link" onclick="showSection('faq')">FAQ</a></li>
+                    <li><a href="#" class="nav-link" onclick="showSection('contact')">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Home Page Content -->
+<section id="home" class="home-content content-section">
+    <div>
+        <header class="home-header no-transition">
+            <h2 class="welcome">Welcome to</h2>
+            <h1 class="center-name">RGO REVIEW CENTER DAVAO</h1>
+        </header>
+    </div>
+
+    <div class="about-section">
+        <h2 class="home-h2">About</h2>
+        <div class="about-content">
+            <div class="about-image-container">
+                <img src="img/home_award.jpg" alt="About Image" class="about-image">
+            </div>
+            <div class="about-text-container">
+                <p class="about-text">
+                    RGO Review Center Davao, established in 2016, is the Philippines' best and multi-awarded review center for Psychology with over 30 branches nationwide. We are well-known for producing multiple top-notchers on the Psychometrician Licensure Examinations. Our commitment and strategies to help you achieve your goals are always tailored to your learning needs.
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="home-text-content">
+        <h2 class="home-h2">Vision, Mission, and Goals</h2>
+        <p class="home-p">
+            RGO Review Center Davao aims to put Filipino professionals on the global pedestal through our premier professional licensure review programs, drawing on our 19 years of experience in cumulative review for Psychometricians. The creation of the company stems from a desire to address potential professional disadvantages brought about by the pandemic in the tertiary academic system. RGO Review Center Davao aims to provide a specialist review service with a carefully selected core group of lecturers of the highest qualification and caliber. These individuals possess both theoretical strengths and practical experiences to share with Filipino test-takers, preparing them to become globally competitive in their fields.
+        </p>
+        <hr>
+        <div class="voucher-column">
+            <h2 class="home-h2">Student Discount Vouchers</h2>
+            <div class="voucher-vertical">
+                <div class="voucher">
+                    <img class="voucher-img" src="img/voucher_barkada.png" alt="Voucher - Barkada"/>
+                    <h3 class="voucher-h3">BARKADA/GROUP VOUCHER</h3>
+                    <p class="voucher-p">Get PHP1,000 off total tuition fee.</p>
+                </div>
+                <div class="voucher">
+                    <img class="voucher-img" src="img/voucher_earlybird.png" alt="Voucher - Early Bird"/>
+                    <h3 class="voucher-h3">EARLY BIRD VOUCHER</h3>
+                    <p class="voucher-p">Get PHP1,000 off total tuition fee.</p>
+                </div>
+            </div>
+
+            <div class="voucher-vertical">
+                <div class="voucher">
+                    <img class="voucher-img" src="img/voucher_spotcash.png" alt="Voucher - Spot Cash"/>
+                    <h3 class="voucher-h3">SPOT CASH VOUCHER</h3>
+                    <p class="voucher-p">Get PHP1,000 off total tuition fee.</p>
+                </div>
+                <div class="voucher">
+                    <img class="voucher-img" src="img/voucher_honors.png" alt="Voucher - Honors"/>
+                    <h3 class="voucher-h3">HONORS DISCOUNT VOUCHER</h3>
+                    <p class="voucher-p">Special discount for qualified Latin honor awardees.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Alumni Testimonials Content -->
+    <section id="testimonials" class="testimonials-content content-section">
+        <div>
+            <header class="testimonials-header no-transition">
+                <h1 class="testimonials-header-text">Alumni Testimonials</h1>
+            </header>
+        </div>
+
+        <div class="alumni-column">
+            <div class="alumni-vertical">
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Pareja.png" alt="Alumni - Pareja"/>
+                    <h2 class="alumni-h2">Kristofferson Pareja, RPm</h2>
+                    <h3 class="alumni-h3">San Pedro College, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"The review materials provided contained very important concepts that were asked during the board exam. Key to our success were the repetition of these concepts through test drills and rationalization given every session-repetition leads to retention."</p>
+                    <p class="alumni-p2">"RGO molded their students holistically- the activities helped us become prepared physically, mentally, emotionally and spiritually. I recommend RGO Review Center Davao to all Psychology Majors who are planning to take the Psychometrician Licensure Examination.  RGO is a home that will lead you to your dreams. RGO is the REAL home of the topnotchers!" </p>
+                </div>
+
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Sanchez.png" alt="Alumni - Sanchez"/>
+                    <h2 class="alumni-h2">Metzyl Sanchez, RPm</h2>
+                    <h3 class="alumni-h3">Cor Jesu College, Digos City, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"It is the only review center with the longest review program for the Board Licensure Examination for Psychologists and Psychometricians (BLEPP). The venue is very conducive for learning, and the team is accommodating. RGO Psychology Review Center Davao is simply amazing. RGO is HOME."</p>
+                    <p class="alumni-p2">"RGO Review Center Davao's formula to our success in the BLEPP was the competent lecturers coupled with the detailed manuals that emphasized what is really happening in the industrial setting as an HR Practitioner. Top-caliber review professionals fully utilized the INTENSIVE TRAINING IN TEST-TAKING SKILLS BOOK which was included in the review package. They also had a personalized approach to teaching, and their jaw-dropping drills made us reviewees more than equipped for the board exam." </p>
+                </div>
+
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Detoya.png" alt="Alumni - Detoya"/>
+                    <h2 class="alumni-h2">Karen Detoya, RPm</h2>
+                    <h3 class="alumni-h3">University of Immaculate Conception, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"The in-house final coaching was helpful because theories discussed really came out in the board."</p>
+                    <p class="alumni-p2">"What’s great about RGO is that lecturers have unique manners of presenting ideas. This helped me become accustomed with different perspectives of scrutinizing and processing information. I recommend RGO Davao to all psychology graduates because they help open your mind to learning psychological concepts the easier way." </p>
+                </div>
+            </div>
+
+            <div class="alumni-vertical">
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Barrientos.png" alt="Alumni - Barrientos"/>
+                    <h2 class="alumni-h2">Esther Charity Barrientos, RPm</h2>
+                    <h3 class="alumni-h3">Notre Dame of Marbel University, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"RGO didn't only prepare us with knowledge and test-taking skills but they were a supportive family in our journey to achieving our license. A BIG YES TO RGO!"</p>
+                    <p class="alumni-p2">"The most helpful part of the review, aside from the brilliant lecturers, were the drills that enhanced our critical thinking and test-taking strategies. The review materials given by the RGO were very useful because they were composed of key concepts and terminologies that were the foundations of the exam itself.
+                    <br><br>The in-house final coaching and stress debriefing program at the end of the review season did not just prepare us mentally but holistically. It was an avenue to control and release overwhelming anxiety as they provided motivational activities."</p>
+                </div>
+
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Arellano.png" alt="Alumni - Arellano"/>
+                    <h2 class="alumni-h2">Noreen Arellano, RPm</h2>
+                    <h3 class="alumni-h3">Ateneo de Davao University, Magna Cum Laude, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"RGO Review Center Davao delivers quality service. The people behind RGO do their best to make sure that people who review in their center not only get to succeed in the board exam but also come out of the review period a more knowledgeable and driven RPm."</p>
+                    <p class="alumni-p2">"In the preparation period, the pre-boards really helped because it gave mean idea of the level of difficulty the real board exam is going to be like. It prepared me on what to expect and how to deal with my nerves in the BLEPP.  
+                    <br><br>The free resources also helped us; especially Theories of Personality which aided me most since it provided a clear and concise summary of the many theories of personality and organized them in a manner that could be easily understood.
+                    <br><br>The in-house final coaching allowed us to gain more knowledge from an exceptional speaker while the de-stressing activities lessened our anxiety by incorporating fun activities/games. The Praise and Worship session also helped inputting myself at ease and have confidence that all I need to do is my best and God will do the rest."</p>
+                </div>
+
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Vilalluz.png" alt="Alumni - Villaluz"/>
+                    <h2 class="alumni-h2">Arisha Vilalluz, RPm</h2>
+                    <h3 class="alumni-h3">University of Mindanao, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"I highly recommend RGO Review Center Davao to my schoolmates because of their thoughtful preparation of test-takers to pass and top the exam through well-structured lectures, drills and review materials that were free for all RGO students."</p>
+                    <p class="alumni-p2">"The Psychological Assessment and Industrial & Organizational  Psychology Study Guide provided by RGO Review Center were two of the most useful quick books in preparing for the exam as they were comprehensive summaries of the topics-these were subjects I found difficult in college.
+                    <br><br>I enjoyed the in-house motivation and stress debriefing program with praise and worship activities. These allowed us to bond with our classmates from different schools, meet new friends, and it boosted our self-efficacy in passing the exam."</p>
+                </div>
+
+                <div class="alumni">
+                    <img class="alumni-img" src="img/alumni_Gabrinao.png" alt="Alumni - Gabrinao"/>
+                    <h2 class="alumni-h2">Jet Albert Gabrinao, RPm</h2>
+                    <h3 class="alumni-h3">Western Mindanao State University, 2016</h3>
+                    <hr class="alumni-hr">
+                    <p class="alumni-p1">"Their balanced review program provided me with all the right tools to face the board exam with confidence and determination. RGO Review Center Davao played a very important role in helping me reach my dream of becoming a Registered Psychometrician. I owe a great deal of my success to them."</p>
+                    <p class="alumni-p2">"RGO Review Center provided us with review materials that were up-to-date and arranged in such a way that made learning refreshingly easier-they really gave me a feel of how it's like applying skills relevant to my work-set up as a Human Resources professional. The lecturers were funny, engaging, and they inspired me to push my intellect beyond its capacity. Their lectures were informative and memorable.
+                    <br><br>Apart from the usual lectures and pre-board exams, they not only ensured that we get good test results but also made sure that we did not face stress by helping us let go of our exam anxieties and fears along the way."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kits & Review Materials Content -->
+    <section id="kits" class="kits-content content-section">
+        <div>
+            <header class="kits-header no-transition">
+                <h1 class="kits-header-text">Kits & Review Materials</h1>
+            </header>
+
+            <div class="kit-p-header">
+            <p class="kits-p1">More review materials such as hand outs, test papers, e-books, power point presentations, and other learning resources will be provided during the course of the review.</p>
+            <p class="kits-p2">All Review Materials are copyrighted to RGO REVIEW CENTER and no part of it will be reproduced, sold, or reprinted without the written permission from RGO. 
+            <br>THE FOLLOWING BOOKS ARE INCLUDED IN YOUR FREEBIES AND IS STRICTLY NOT FOR SALE:</p>
+            </div>
+            <div class="materials-column">
+                <div class="materials-vertical">
+                    <div class="materials">
+                        <img class="materials-img1" src="img/kit_kit.png" alt="RGO Psychometrician Kit"/>
+                        <h3 class="materials-h3">FREE BAG</h3>
+                    </div>
+                    <div class="materials">
+                        <img class="materials-img1" src="img/kit_books.jpeg" alt="RGO Psychometrician Book Collection"/>
+                        <h3 class="materials-h3">BOOK COLLECTION</h3>
+                    </div>
+                </div>
+    
+                <div class="materials-vertical">
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book1.jpeg" alt="INUDSTRIAL-ORGANIZATIONAL PSYCHOLOGY"/>
+                        <h3 class="materials-h3">INUDSTRIAL-ORGANIZATIONAL PSYCHOLOGY</h3>
+                    </div>
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book2.jpeg" alt="PSYCHOLOGICAL ASSESSMENT"/>
+                        <h3 class="materials-h3">PSYCHOLOGICAL ASSESSMENT</h3>
+                    </div>
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book3.jpeg" alt="THEORIES OF PERSONALITY"/>
+                        <h3 class="materials-h3">THEORIES OF PERSONALITY</h3>
+                    </div>
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book4.jpeg" alt="ABNORMAL PSYCHOLOGY"/>
+                        <h3 class="materials-h3">ABNORMAL PSYCHOLOGY</h3>
+                    </div>
+                </div>
+
+                <div class="materials-vertical">
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book5.jpeg" alt="PSYCH NUGGETS"/>
+                        <h3 class="materials-h3">PSYCH NUGGETS</h3>
+                    </div>
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book6.jpeg" alt="DRILL BOOK"/>
+                        <h3 class="materials-h3">DRILL BOOK</h3>
+                    </div>
+                    <div class="materials">
+                        <img class="materials-img2" src="img/kit_book7.jpeg" alt="PSYCH PEARLS"/>
+                        <h3 class="materials-h3">PSYCH PEARLS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- FAQ Content -->
+    <section id="faq" class="faq-content content-section">
+        <div>
+            <header class="faq-header no-transition">
+                <h1 class="faq-header-text">Frequently Asked Questions</h1>
+            </header>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3 class="faq-question" onclick="toggleAnswer('faq-answer-1')">How to enroll?</h3>
+                    <div id="faq-answer-1" class="faq-answer">
+                        <p>You can enroll in various ways:
+                            <br>• Online: through our official banks and payment centers (Palawan, LBC, M.Lhuillier, etc.)
+                            <br>• Mobile: GCash, BPI
+                            <br>• Personal: Enrollment Caravan; Office
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                    <h3 class="faq-question" onclick="toggleAnswer('faq-answer-2')">How many slots are left and when is the deadline for enrollment?</h3>
+                    <div id="faq-answer-2" class="faq-answer">
+                        <p>Our available slots for each branch change every day as there are students enrolling on a day-to-day basis. Please send us a message if there are any slots left for you to choose. Once we reach a certain number, we may open a new section to accommodate the next batch. There is no deadline for enrollment as long as slots are available.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                    <h3 class="faq-question" onclick="toggleAnswer('faq-answer-3')">What are the inclusions in your review program?</h3>
+                    <div id="faq-answer-3" class="faq-answer">
+                        <p>When you enroll with us, you will receive 1 review kit with 7 books. In every review session, you will also answer drills, mock exams, and pre-boards. Over 5,000 actual board exam questions will be discussed. You will also receive guidance on how to apply for the PRC. Final coaching is also included. Motivation sessions and stress debriefing are integral parts of our review program.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                    <h3 class="faq-question" onclick="toggleAnswer('faq-answer-4')">Can I transfer to any of your branches if I miss a class in my enrolled branch?</h3>
+                    <div id="faq-answer-4" class="faq-answer">
+                        <p>Yes! We have an interbranch agreement for Mindanao. applicable to the following branches: Davao-CDO-Koronadal. That means that if you are enrolled in any of the mentioned branches, you can attend the class in any of these venues without additional cost. For example, if you are enrolled in Koronadal but you want to attend some of the sessions in Davao, yes you can do that and vice versa, just inform us. </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                    <h3 class="faq-question" onclick="toggleAnswer('faq-answer-5')">Is it advisable to review even if there is no schedule for the exam yet?</h3>
+                    <div id="faq-answer-5" class="faq-answer">
+                        <p>Yes! We highly recommend that you enroll in our review program to keep your learning momentum and to prepare you for the big day. You lose nothing but gain more by continuing your studies after graduation. If the exam is moved to next year, students enrolled in this program will have the option to enroll in our next program at a discounted rate, or be given free online enhancement sessions. </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq-item">
+                    <h3 class="faq-question" onclick="toggleAnswer('faq-answer-6')">I want to top or pass the board exam. What do I need to do?</h3>
+                    <div id="faq-answer-6" class="faq-answer">
+                        <p>You can enroll in our review program and follow our study guide. Our review program stood the test of time. Even during the pandemic, we were able to conduct the review and produce a high passing rate and top notchers.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Content -->
+    <section id="contact" class="contact-content content-section">
+        <div>
+            <header class="contact-header no-transition">
+                <h1 class="contact-header-text">Contact Us</h1>
+            </header>
+            
+            <div class="contact-details">
+                <h2>Contact Details</h2>
+                <ul>
+                    <li>Mobile Number: 0926 453 7276</li>
+                    <li>Email: <a href="mailto:rgoreviewserviceprovider@rgomindanao.com">rgoreviewserviceprovider@rgomindanao.com</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/RGOreviewcenterdavao" target="_blank">RGO Review Center Davao</a></li>
+                </ul>
+            </div>
+
+            <div class="business-hours">
+                <h2>Business Hours</h2>
+                <ul>
+                    <li>Weekdays (Monday-Friday): 9am-6pm</li>
+                    <li>Weekends (Saturday-Sunday): CLOSED</li>
+                </ul>
+            </div>
+
+            <div style="font-family: 'Trebuchet', sans-serif; color: #334667;">
+                <h2> Business Address </h2>
+                <p>2F, Beechnut Square (Between Paper Tree and The Pinnacle Hotel), Sta. Ana Avenue, Poblacion District, Davao City, 8000, Davao del Sur, Philippines.</p>
+                <iframe
+                    width="600"
+                    height="450"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.9283156623902!2d125.6145147979259!3d7.0764478828457875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d79cd6b5cc1%3A0xda8114ad7c0eecd9!2sRGO%20Mindanao%20%2F%20RGO%20Review%20Center%20-%20Davao%20(main)!5e0!3m2!1sen!2sph!4v1709566816886!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <div class="map-space"></div>
+            </div>            
+        </div>
+    </section>
+    
+    <!-- JavaScript -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        // Show home page on page load
+        window.onload = function() {
+            showSection('home');
+        };
+    </script>
+
+    <script>
+        function toggleAnswer(answerId) {
+            var answer = document.getElementById(answerId);
+            var question = answer.previousElementSibling; 
+
+            if (answer.style.display === 'block' || answer.style.display === '') {
+                answer.style.display = 'none';
+                question.classList.remove('active');
+            } else {
+                answer.style.display = 'block';
+                question.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
